@@ -2,3 +2,38 @@ baseURL: http://linh012.github.io/personal-blog/
 languageCode: en-us
 title: My Personal Blog
 theme: PaperMod
+enableEmoji: true
+
+params:
+  defaultTheme: auto
+  ShowShareButtons: false
+  ShowReadingTime: true
+  disableSpecial1stPost: false
+  disableScrollToTop: false
+  ShowToc: true
+  TocOpen: false
+  ShowBreadCrumbs: false
+  editPost:
+    URL: "https://github.com/Linh012/personal-blog/tree/master//content"
+    Text: "Suggest Changes"
+    appendFilePath: true
+  ShowPostNavLinks: false
+  ShowCodeCopyButtons: true
+  hideSummary: false
+  comments: false # I want to add a comment section
+  DateFormat: "2 January, 2006"
+
+  homeInfoParams:
+    Title: "Linh's online journal \U0001F4D2"
+    Content: "A blog written by an aspiring computer scientist
+    who doesn't know how to write blogs well."
+
+  socialIcons:
+      - name: website
+        url: "https://linh012.github.io/"
+      - name: github
+        url: "https://github.com/Linh012"
+      - name: linkedin
+        url: "https://linkedin.com/"
+      - name: email
+        url: "mailto: gln8984@gmail.com"

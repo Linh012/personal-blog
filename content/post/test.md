@@ -10,4 +10,9 @@ This is a test blog post for my blog.
 
 ## Heading 2
 
-This is the second paragraph.
+This is the second paragraph. Below is a test code block.
+
+```
+#Hover to reveal copy button!
+print("Hello World!")
+```
